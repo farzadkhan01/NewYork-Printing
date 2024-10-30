@@ -67,6 +67,9 @@ li {
     font-size: 17px;
 }
 
+.navbar-general-btn i {
+    cursor: pointer;
+}
 .navbar-general-btn button:hover {
     color: var(--navbar--yellow);
     background-color: black;
@@ -268,7 +271,6 @@ li {
     align-items: end;
     justify-content: space-between;
     gap: 10px;
-    transition: all 0.3s;
 }
 
 .hero-caption button {
@@ -276,6 +278,7 @@ li {
     border: 2px solid var(--navbar--yellow);
     font-size: 19px;
     padding: 15px 35px;
+    transition: all 0.3s;
 }
 
 .hero-special-btn-2:hover {
@@ -693,6 +696,53 @@ li {
     border: none;
     top: 9px;
     left: 9px;
+}
+
+
+.circle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 2px;
+    background-color: rgb(239, 239, 239);
+    top: 50%;
+    left: 25%;
+}
+
+.minus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(239, 239, 239);
+    top: 35%;
+    left: 40%;
+    rotate: 90deg;
+    z-index: 5;
+    transition: all 0.3s;
+}
+
+.general-collapse-btn[aria-expanded="true"]>.circle>.minus {
+    width: 0px;
+}
+
+.circle .minus {
+    width: 50%;
 }
 
 /* New York city image */
