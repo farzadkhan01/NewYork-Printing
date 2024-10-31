@@ -70,6 +70,7 @@ li {
 .navbar-general-btn i {
     cursor: pointer;
 }
+
 .navbar-general-btn button:hover {
     color: var(--navbar--yellow);
     background-color: black;
@@ -294,7 +295,7 @@ li {
 
 .hero-special-btn:hover {
     background-color: #fabd06c4 !important;
-    border: 2px solid #fabd06c4 !important;
+    border: 2px solid #fabd0645 !important;
     margin-bottom: 4px;
 }
 
@@ -349,6 +350,9 @@ li {
     color: black;
 }
 
+.products-link:hover {
+    text-decoration: none !important;
+}
 .single-product {
     margin-right: 25px;
 }
@@ -612,6 +616,7 @@ li {
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
+    height: 14rem;
 }
 
 .CRSL--images img {
