@@ -257,6 +257,8 @@
         width: 80% !important;
     }
 
+    
+
     /* <!-- section-2 referances --> */
     .product-caption p {
         font-size: 10px;
@@ -265,6 +267,14 @@
 
     .product-caption h3 {
         font-size: 18px;
+    }
+
+    .for--w-50 {
+        width: 50%;
+    }
+
+    .for--w-100 {
+        width: 100%;
     }
 
     /* <!-- section-4 About --> */
@@ -302,9 +312,15 @@
     }
 
     .referance-caption h2 {
-        font-size: 10px;
+        font-size: 16px;
         color: black;
     }
+
+    .referances-information {
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+        padding: 15px 6px 5px 15px;
+    }
+
 
     .footer--social-links a i {
         font-size: 26px;
