@@ -144,6 +144,10 @@
         height: auto;
     }
 
+    .product-display {
+        display: none !important;
+    }
+
 }
 
 
@@ -257,7 +261,7 @@
         width: 80% !important;
     }
 
-    
+
 
     /* <!-- section-2 referances --> */
     .product-caption p {

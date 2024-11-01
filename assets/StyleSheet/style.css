@@ -47,6 +47,24 @@ li {
     font-size: 17px;
     font-weight: 350;
     margin: 0;
+
+}
+
+.autoShower {
+    animation: autoShower 0.4s linear both;
+    animation-timeline: view(85% auto);
+}
+
+@keyframes autoShower {
+    from {
+        opacity: 0;
+        transform: translateY(0 -100%) scale(0.3);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 }
 
 /* ================================================ */
@@ -353,6 +371,7 @@ li {
 .products-link:hover {
     text-decoration: none !important;
 }
+
 .single-product {
     margin-right: 25px;
 }
