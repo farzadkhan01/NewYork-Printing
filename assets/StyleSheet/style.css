@@ -229,7 +229,7 @@ li {
     width: 100%;
     padding: 50px 45px;
     transition-timing-function: 0.3s;
-    transition: all 0.4s ease-in !important;
+    transition: all 0.6s ease-in !important;
 }
 
 .hovered-links h2 {
@@ -341,8 +341,11 @@ li {
     margin: -1px;
 }
 
+.all--styling {
+    font-size: 12px;
+}
 .stars-info {
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-weight: 600 !important;
 }
 
