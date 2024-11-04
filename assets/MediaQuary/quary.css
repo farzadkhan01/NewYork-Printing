@@ -126,6 +126,10 @@
     }
 
     .blog-card-image {
+        height: auto;
+    }
+
+    .blog-card-image {
         width: 100%;
     }
 
