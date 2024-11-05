@@ -17,17 +17,25 @@
     padding: 0;
 }
 
-/* 
 
 @font-face {
-    font-family: CustomFont;
-    src: url("../FontFamily/9776pny-sf-pro-light.woff2");
-    font-weight: normal;
+    font-family: pny-sf-pro-black;
     font-style: normal;
-} */
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../FontFamily/sf-pro-display/190729121518pny-sf-pro-black.woff') format('woff');
+}
+
+@font-face {
+    font-family: pny-sf-pro-light;
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../FontFamily/sf-pro-display/9776pny-sf-pro-light.woff2') format('woff2');
+}
 
 body {
-    font-family: sans-serif;
+    font-family: 'pny-sf-pro-light';
     font-style: normal;
     font-weight: normal;
 }
@@ -60,10 +68,10 @@ li {
 
 }
 
-/* 
+
 .autoShower {
     animation: autoShower 0.4s linear both;
-    animation-timeline: view(90% auto);
+    animation-timeline: view(95% auto);
 }
 
 @keyframes autoShower {
@@ -76,7 +84,28 @@ li {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
-} */
+}
+
+
+
+.referance-caption h2,
+.product-caption h3,
+.about-information h3,
+.services-caption h4,
+.services-caption h3,
+.blog-card-info h4,
+.general-collapse-btn,
+.card-body h3,
+.referances-links h3,
+.footer-links a,
+.navbar-general-btn ul li a,
+.navbar-general-btn button,
+.collapse--header a,
+.collapse a,
+.hero-caption button {
+    font-family: 'pny-sf-pro-black';
+}
+
 
 /* ================================================ */
 /* Navbar */
@@ -278,11 +307,12 @@ li {
 }
 
 .hero-caption h1 {
+    font-family: 'pny-sf-pro-black';
     font-size: 90px;
     letter-spacing: -2px;
     color: white;
-    font-weight: 600;
     margin-top: -11px;
+
 }
 
 .hero-caption p {
@@ -344,6 +374,7 @@ li {
 .all--styling {
     font-size: 12px;
 }
+
 .stars-info {
     font-size: 15px !important;
     font-weight: 600 !important;
@@ -741,6 +772,7 @@ li {
     font-size: 15px;
     font-weight: 600;
     margin: 20px 0;
+    color: black;
 }
 
 .card-body p {
