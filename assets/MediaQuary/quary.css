@@ -338,3 +338,8 @@
         font-size: 26px;
     }
 }
+@media only screen and (max-width: 348px) {
+    .referances-links {
+        height: 25rem;
+    }
+}
